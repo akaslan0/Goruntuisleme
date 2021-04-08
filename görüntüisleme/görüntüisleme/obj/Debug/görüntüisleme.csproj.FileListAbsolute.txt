@@ -1,0 +1,16 @@
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\bin\Debug\görüntüisleme.exe.config
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\bin\Debug\görüntüisleme.exe
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\bin\Debug\görüntüisleme.pdb
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.csprojAssemblyReference.cache
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.Form1.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.PikselFr.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.Properties.Resources.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.csproj.GenerateResource.cache
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.csproj.CoreCompileInputs.cache
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.exe
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.pdb
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.Form2.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.invertFr.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.parlaklıkFr.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.grıFr.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.BT_709.resources
