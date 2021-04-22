@@ -14,3 +14,5 @@ C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\gö
 C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.parlaklıkFr.resources
 C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.grıFr.resources
 C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.BT_709.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.ikiliGoruntuFr.resources
+C:\Users\pc\c# görüntü isleme\görüntüisleme\görüntüisleme\obj\Debug\görüntüisleme.thresholdFr.resources

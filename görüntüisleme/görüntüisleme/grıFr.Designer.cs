@@ -34,14 +34,14 @@ namespace görüntüisleme
             this.açToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.griYöntemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ortalamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.islemBox = new System.Windows.Forms.PictureBox();
-            this.KaynakBox1 = new System.Windows.Forms.PictureBox();
             this.bT709ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lumaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.açıklıkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.renkKanalıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.normalizeEdilmisRenkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.islemBox = new System.Windows.Forms.PictureBox();
+            this.KaynakBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.islemBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.KaynakBox1)).BeginInit();
@@ -70,7 +70,7 @@ namespace görüntüisleme
             // açToolStripMenuItem
             // 
             this.açToolStripMenuItem.Name = "açToolStripMenuItem";
-            this.açToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.açToolStripMenuItem.Size = new System.Drawing.Size(107, 26);
             this.açToolStripMenuItem.Text = "aç";
             this.açToolStripMenuItem.Click += new System.EventHandler(this.açToolStripMenuItem_Click);
             // 
@@ -90,9 +90,44 @@ namespace görüntüisleme
             // ortalamaToolStripMenuItem
             // 
             this.ortalamaToolStripMenuItem.Name = "ortalamaToolStripMenuItem";
-            this.ortalamaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.ortalamaToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
             this.ortalamaToolStripMenuItem.Text = "ortalama";
             this.ortalamaToolStripMenuItem.Click += new System.EventHandler(this.ortalamaToolStripMenuItem_Click);
+            // 
+            // bT709ToolStripMenuItem
+            // 
+            this.bT709ToolStripMenuItem.Name = "bT709ToolStripMenuItem";
+            this.bT709ToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.bT709ToolStripMenuItem.Text = "bt709";
+            this.bT709ToolStripMenuItem.Click += new System.EventHandler(this.bT709ToolStripMenuItem_Click);
+            // 
+            // lumaToolStripMenuItem
+            // 
+            this.lumaToolStripMenuItem.Name = "lumaToolStripMenuItem";
+            this.lumaToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.lumaToolStripMenuItem.Text = "luma";
+            this.lumaToolStripMenuItem.Click += new System.EventHandler(this.lumaToolStripMenuItem_Click);
+            // 
+            // açıklıkToolStripMenuItem
+            // 
+            this.açıklıkToolStripMenuItem.Name = "açıklıkToolStripMenuItem";
+            this.açıklıkToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.açıklıkToolStripMenuItem.Text = "açıklık";
+            this.açıklıkToolStripMenuItem.Click += new System.EventHandler(this.açıklıkToolStripMenuItem_Click);
+            // 
+            // renkKanalıToolStripMenuItem
+            // 
+            this.renkKanalıToolStripMenuItem.Name = "renkKanalıToolStripMenuItem";
+            this.renkKanalıToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.renkKanalıToolStripMenuItem.Text = "renk kanalı";
+            this.renkKanalıToolStripMenuItem.Click += new System.EventHandler(this.renkKanalıToolStripMenuItem_Click);
+            // 
+            // normalizeEdilmisRenkToolStripMenuItem
+            // 
+            this.normalizeEdilmisRenkToolStripMenuItem.Name = "normalizeEdilmisRenkToolStripMenuItem";
+            this.normalizeEdilmisRenkToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.normalizeEdilmisRenkToolStripMenuItem.Text = "normalize edilmis renk";
+            this.normalizeEdilmisRenkToolStripMenuItem.Click += new System.EventHandler(this.normalizeEdilmisRenkToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -113,41 +148,6 @@ namespace görüntüisleme
             this.KaynakBox1.Size = new System.Drawing.Size(550, 471);
             this.KaynakBox1.TabIndex = 4;
             this.KaynakBox1.TabStop = false;
-            // 
-            // bT709ToolStripMenuItem
-            // 
-            this.bT709ToolStripMenuItem.Name = "bT709ToolStripMenuItem";
-            this.bT709ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.bT709ToolStripMenuItem.Text = "bt709";
-            this.bT709ToolStripMenuItem.Click += new System.EventHandler(this.bT709ToolStripMenuItem_Click);
-            // 
-            // lumaToolStripMenuItem
-            // 
-            this.lumaToolStripMenuItem.Name = "lumaToolStripMenuItem";
-            this.lumaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.lumaToolStripMenuItem.Text = "luma";
-            this.lumaToolStripMenuItem.Click += new System.EventHandler(this.lumaToolStripMenuItem_Click);
-            // 
-            // açıklıkToolStripMenuItem
-            // 
-            this.açıklıkToolStripMenuItem.Name = "açıklıkToolStripMenuItem";
-            this.açıklıkToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.açıklıkToolStripMenuItem.Text = "açıklık";
-            this.açıklıkToolStripMenuItem.Click += new System.EventHandler(this.açıklıkToolStripMenuItem_Click);
-            // 
-            // renkKanalıToolStripMenuItem
-            // 
-            this.renkKanalıToolStripMenuItem.Name = "renkKanalıToolStripMenuItem";
-            this.renkKanalıToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.renkKanalıToolStripMenuItem.Text = "renk kanalı";
-            this.renkKanalıToolStripMenuItem.Click += new System.EventHandler(this.renkKanalıToolStripMenuItem_Click);
-            // 
-            // normalizeEdilmisRenkToolStripMenuItem
-            // 
-            this.normalizeEdilmisRenkToolStripMenuItem.Name = "normalizeEdilmisRenkToolStripMenuItem";
-            this.normalizeEdilmisRenkToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
-            this.normalizeEdilmisRenkToolStripMenuItem.Text = "normalize edilmis renk";
-            this.normalizeEdilmisRenkToolStripMenuItem.Click += new System.EventHandler(this.normalizeEdilmisRenkToolStripMenuItem_Click);
             // 
             // grıFr
             // 

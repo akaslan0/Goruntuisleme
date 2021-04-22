@@ -43,5 +43,17 @@ namespace görüntüisleme
 
 
         }
+
+        private void thresholdYöntemleriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            thresholdFr thresdholdFormu = new thresholdFr();
+            thresdholdFormu.ShowDialog();
+        }
+
+        private void ikiliGörüntüToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ikiliGoruntuFr ikiliGoruntuFormu = new ikiliGoruntuFr();
+            ikiliGoruntuFormu.ShowDialog();
+        }
     }
 }

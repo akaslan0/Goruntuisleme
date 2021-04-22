@@ -35,6 +35,8 @@ namespace görüntüisleme
             this.invertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.parlaklıkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.griYöntemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thresholdYöntemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ikiliGörüntüToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +47,7 @@ namespace görüntüisleme
             this.işlemlerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(294, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(294, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -55,38 +57,54 @@ namespace görüntüisleme
             this.pikselAlToolStripMenuItem,
             this.invertToolStripMenuItem,
             this.parlaklıkToolStripMenuItem,
-            this.griYöntemleriToolStripMenuItem});
+            this.griYöntemleriToolStripMenuItem,
+            this.thresholdYöntemleriToolStripMenuItem,
+            this.ikiliGörüntüToolStripMenuItem});
             this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
-            this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
+            this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.işlemlerToolStripMenuItem.Text = "işlemler";
             // 
             // pikselAlToolStripMenuItem
             // 
             this.pikselAlToolStripMenuItem.Name = "pikselAlToolStripMenuItem";
-            this.pikselAlToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pikselAlToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.pikselAlToolStripMenuItem.Text = "piksel al";
             this.pikselAlToolStripMenuItem.Click += new System.EventHandler(this.pikselAlToolStripMenuItem_Click);
             // 
             // invertToolStripMenuItem
             // 
             this.invertToolStripMenuItem.Name = "invertToolStripMenuItem";
-            this.invertToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.invertToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.invertToolStripMenuItem.Text = "invert";
             this.invertToolStripMenuItem.Click += new System.EventHandler(this.invertToolStripMenuItem_Click);
             // 
             // parlaklıkToolStripMenuItem
             // 
             this.parlaklıkToolStripMenuItem.Name = "parlaklıkToolStripMenuItem";
-            this.parlaklıkToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.parlaklıkToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.parlaklıkToolStripMenuItem.Text = "parlaklık";
             this.parlaklıkToolStripMenuItem.Click += new System.EventHandler(this.parlaklıkToolStripMenuItem_Click);
             // 
             // griYöntemleriToolStripMenuItem
             // 
             this.griYöntemleriToolStripMenuItem.Name = "griYöntemleriToolStripMenuItem";
-            this.griYöntemleriToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.griYöntemleriToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.griYöntemleriToolStripMenuItem.Text = "gri yöntemleri";
             this.griYöntemleriToolStripMenuItem.Click += new System.EventHandler(this.griYöntemleriToolStripMenuItem_Click);
+            // 
+            // thresholdYöntemleriToolStripMenuItem
+            // 
+            this.thresholdYöntemleriToolStripMenuItem.Name = "thresholdYöntemleriToolStripMenuItem";
+            this.thresholdYöntemleriToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
+            this.thresholdYöntemleriToolStripMenuItem.Text = "threshold yöntemleri";
+            this.thresholdYöntemleriToolStripMenuItem.Click += new System.EventHandler(this.thresholdYöntemleriToolStripMenuItem_Click);
+            // 
+            // ikiliGörüntüToolStripMenuItem
+            // 
+            this.ikiliGörüntüToolStripMenuItem.Name = "ikiliGörüntüToolStripMenuItem";
+            this.ikiliGörüntüToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
+            this.ikiliGörüntüToolStripMenuItem.Text = " ikili goruntu islemleri";
+            this.ikiliGörüntüToolStripMenuItem.Click += new System.EventHandler(this.ikiliGörüntüToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -112,6 +130,8 @@ namespace görüntüisleme
         private System.Windows.Forms.ToolStripMenuItem invertToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem parlaklıkToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem griYöntemleriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thresholdYöntemleriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ikiliGörüntüToolStripMenuItem;
     }
 }
 
